@@ -1,0 +1,599 @@
+/*---------------------------------------------------------------------
+                               General
+-----------------------------------------------------------------------*/
+* {margin: 0px; padding: 0px; box-sizing: border-box;}
+body {color: #666; font-family: 'Poppins', sans-serif; font-weight: 100; line-height: 24px; letter-spacing: 0.7px; }
+ul {margin-bottom: 0px; padding-left: 0px;}
+ul, li {list-style: none;}
+a {text-decoration: none;}
+a:hover {text-decoration: none;}
+.btn-bg {background: #ff0018; color: #fff;}
+
+/*---------------------------------------------------------------------
+                          Header Top Section
+-----------------------------------------------------------------------*/
+
+/*-- Topbar --*/
+.topbar {
+    background: #1a1a1a;
+    line-height: 45px;
+    font-size: 0.875rem;
+}
+.top-left p {
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+.top-right {
+    display: flex;
+    justify-content: end;
+}
+
+.top-rightElement li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+.top-rightElement a {
+    color: #fff;
+}
+
+
+
+/*-- Middle Header --*/
+
+.middle-header-right {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 0.875rem;
+    position: relative;
+}
+.logo {
+    line-height: 80px;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #1a1a1a;
+}
+.logo a {
+    color: #eb0029;
+    font-weight: 900;
+    font-size: 2.2rem;
+}
+
+
+/*  */
+.call-info i {
+    font-size: 2.8rem;
+    padding-right: 0.8rem;
+    color: #eb0029;
+}
+.info-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #eb0029;
+    padding-top: 0.5rem;
+
+}
+.info-content span {
+    color: #000;
+}
+.sb-btn {
+    color: #333;
+    font-weight: 500;
+}
+.mobile-hero {
+    display: none;
+}
+
+
+/*---------------------------------------------------------------------
+                          Slider Section
+-----------------------------------------------------------------------*/
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    right: auto;
+    bottom: auto;
+    text-align: left;
+    transform: translateY(-50%);
+}
+.carousel-caption h4 {
+    font-size: 4rem;
+}
+
+.carousel-caption h6 {
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: yellow;
+}
+
+.carousel-caption h6 span {
+    font-size: 3rem;
+}
+.carousel-caption a {border: 1px solid #fff;color: #fff;padding: 0.8rem 1.5rem;display: inline-block;font-size: 1.2rem;margin-top: 2rem;transition: all 0.3s;}
+
+.carousel-caption a:hover {
+    background: #fff;
+    color: #000;
+}
+
+/*--- Delivery Message ---*/
+.delivery-banner {padding: 3rem 0 0 0;}
+.delivery-banner h6 {font-weight: 600;}
+.delivery-banner p {margin-bottom: 0;}
+.delivery-banner i {
+    font-size: 1.5rem;
+    border-radius: 50%;
+    border: 1px solid #999;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    line-height: 55px;
+}
+
+/*---- Seller ---*/
+.best-seller-section .card-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 1rem;
+}
+
+.seller-card-img {
+    width: 300px;
+}
+
+.seller-card-content .card-title {
+    font-size: 1.7rem;
+}
+
+.seller-card-content .card-link {
+    color: #fff;
+    text-decoration: underline;
+    display: inline-block;
+    margin-top: 2rem;
+}
+
+.card.seller-bg1 {
+    background: #085d81;
+    color: #fff;
+}
+.card.seller-bg2 {
+    background: var(--bs-gray);
+    color: #fff;
+}
+
+
+/* Offer card */
+.offer-card {
+    position: relative;
+    overflow: hidden;
+}
+.offer-bg img {
+    width: 100%;
+}
+
+.offer-pro {
+    position: absolute;
+    transition: all 0.3s;
+}
+.offer-pro_1 .offer-pro {
+    bottom: 0;
+    right: 0;
+}
+.offer-pro_2 .offer-pro {
+    top: 1rem;
+    right: 0;
+}
+.offer-pro_3 .offer-pro {
+    bottom: 2rem;
+    left: 0;
+}
+.offer-pro:hover {
+    transform: scale(1.1);
+}
+.main-btn {
+    position: absolute;
+    bottom: 0;
+    z-index: 9;
+    background: #fff;
+    margin: 2rem;
+    padding: 0.5rem 0.8rem;
+    border-radius: 0.8rem;
+    color: #333;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+.main-btn:hover {
+    background: #eb0029;
+    color: #fff;
+    transition: all 0.3s;
+}
+.offer-pro_3 .main-btn {
+    right: 0;
+}
+
+/*  */
+.col-50.col-md-3 {
+    width: 20%;
+}
+.menu-card {
+    margin: 1rem 0 0;
+    display: inline-block;
+}
+.menu-card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 180px;
+}
+.menu-title {
+    text-align: center;
+    background: #f1f1f1;
+    padding: 0.7rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: #000;
+}
+.menu-head {
+    color: #000;
+}
+
+.menu-head h2 {
+    font-weight: 600;
+}
+
+/*---------------------------------------------------------------------
+                           Offer Banner Section
+-----------------------------------------------------------------------*/
+.offer-banner-section {background-image: url('../images/banner.jpg');background-attachment: fixed;background-position: 50%;background-repeat: no-repeat;background-size: cover;height: 450px;}
+.offer-banner-content {text-align: right;padding-top: 6rem;}
+.offer-banner-content p {color: #fff;font-size: 2rem;margin: 2rem 0;}
+.offer-banner-content img {padding: 3rem 9rem;}
+.offer-banner-content a {
+    border: 2px solid #fff;
+    padding: 0.5rem 2rem;
+    display: inline-block;
+    color: #fff;
+    margin-top: 2rem;
+    transition: all 0.3s;
+}
+.offer-banner-content a:hover {
+    background: #fff; color: #000;
+}
+span.sale-tag {
+    font-size: 5rem;
+    color: #7dff00;
+}
+
+/* delivery */
+.delivery-section {
+    background-image: url('../images/bg-dev.PNG');
+    margin-bottom: 2rem;
+    border-radius: 0.8rem;
+    padding: 1rem 2rem;
+}
+.deliver-img {
+    text-align: end;
+}
+.deliver-img img {
+    
+width: 70%;
+}
+.delivery-content {
+    color: #fff;
+}
+
+.delivery-content h2 {
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+.delivery-section .call-info i {
+    color: #fff;
+}
+
+.delivery-section .call-info {
+    color: #fff;
+}
+
+.delivery-section .info-title {
+    color: #fff;
+}
+.delivery-section .info-content span {
+    color: #fff;
+}
+
+/* Menu bg section */
+.menuBg-section {
+    background:
+    url('../images/pizza-bg.jpg') no-repeat;
+    height: 300px;
+    background-position: center;
+}
+
+/* Product menu */
+.mobile-menubar {
+    display: none;
+}
+.product-card {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.product-price {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0.5rem;
+    background: #eb0029;
+    padding: 0.1rem 0.5rem 0.2rem 0.5rem;
+    border-radius: 0.8rem;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.item-name {
+    text-align: center;
+    margin-top: 0.5rem;
+    color: #000;   
+}
+.item-name span {
+    font-weight: 500;
+}
+.item-name p {
+    font-size: 0.85rem;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0.5em;
+}
+.prod-main-btn {
+    padding: 0.4rem 1rem !important;
+    border: 1px solid #ddd;
+    font-size: 0.875rem;
+    color: #000;
+    transition: all 0.3s ease-out 0s;
+    display: inline-block;
+    margin-top: 0.5rem;
+    border-radius: 1rem;
+    background-color: var(--bs-yellow);
+}
+
+.sidebar-head {
+    padding: 1.57rem 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #fff;
+    background: #eb0029;
+}
+
+
+.closebtn {
+    position: absolute;
+    top: 25px;
+    right: 15px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: #fff;
+    display: none;
+}
+.product-card-img img {
+    height: 210px;
+}
+
+/*---------------------------------------------------------------------
+                           Products Page
+-----------------------------------------------------------------------*/
+.breadcrumb-area {
+    margin: 2.5rem 0;
+}
+.breadcrumb-area nav {
+    background: transparent;
+    font-size: 0.875rem;
+}
+.products-title {
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: #333;
+}
+.sorting {
+    margin-bottom: 2rem;
+}
+.products-left-sidebar {
+    box-shadow: 0px 0px 1px;
+    transform: translateX(0);
+}
+.products-left-sidebar h6 {
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    padding: 15px;
+    margin-bottom: 0;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.products-left-sidebar ul {
+    padding: 15px;
+}
+.products-left-sidebar ul li {
+    line-height: 40px;
+}
+.products-left-sidebar ul li a {
+    color: #333;
+    font-weight: 400;
+}
+.products-left-sidebar ul li a:hover {
+    color: #ff0018;
+}
+
+
+/*---------------------------------------------------------------------
+                           Products Details Page
+-----------------------------------------------------------------------*/
+
+.product-details-content .item-name {
+    text-align: left;
+    padding: 0;
+}
+
+.product-details-content .item-name h1 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.rating {
+    display: flex;
+    margin: 1rem 0;
+}
+
+.rating-star {
+    font-size: 0.8rem;
+    color: #ff0018;
+}
+
+.rating p {
+    font-size: 0.75rem;
+    margin-left: .8rem;
+    margin-bottom: 0;
+}
+
+.product-details-content .product-price {
+    text-align: left;
+    padding: 1rem 0 2rem 0;
+}
+
+.product-details-content .amount {
+    font-size: 1.5rem;
+}
+
+
+.choose-size {
+    color: #333;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.choose-size ul li {
+    height: 35px;
+    width: 35px;
+    border: 1px solid #999;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+.add-to-cart {
+    background: #ff0018;
+    border-color: #ff0018;
+    text-transform: uppercase;
+    width: 250px;
+    padding: 1rem 0.5rem;
+}
+
+.wishlist-btn {
+    padding: 1rem 0.5rem;
+    width: 180px;
+    background: transparent;
+    color: #000;
+    border-color: #ccc;
+    margin-left: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.wishlist-btn i {
+    margin-right: 0.3rem;
+}
+
+
+.product-tab-desc .nav.nav-pills {
+    border-bottom: 1px solid #666;
+    padding-bottom: 1rem;
+}
+
+.product-tab-desc .nav-pills .nav-link.active, .product-tab-desc .nav-pills .show>.nav-link {
+    border: 2px solid #333;
+    background: #333;
+    text-transform: uppercase;
+    border-radius: 0px;
+}
+
+.nav-pills .nav-link {
+    color: #333;
+    border: 2px solid #333;
+    text-transform: uppercase;
+    border-radius: 0;
+    margin: 0 1rem 1rem 0;
+}
+
+
+
+
+
+
+/*---------------------------------------------------------------------
+                           Footer
+-----------------------------------------------------------------------*/
+footer {
+    background: #e4e8eb;
+    padding: 1rem 0;
+}
+ul.social-icon {
+    text-align: center;
+}
+ul.social-icon li {
+    display: inline-block;
+}
+
+ul.social-icon li a {
+    font-size: 1.5rem;
+    margin: 0 0.2rem;
+    display: inline-block;
+    color: #333;
+}
+
+.newsletter {
+    text-align: center;
+    color: #333;
+}
+
+span.news-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+.newsletter form button {
+    background: #333;
+    color: #fff;
+    border: 0px;
+    line-height: 35px;
+}
+.footer-nav li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer-nav li a {
+    color: #000;
+    font-weight: 500;
+}
+
+
+/* Footer */
+footer .top-rightElement {
+    text-align: right;
+}
+
+footer .top-rightElement a {
+    color: #000;
+}

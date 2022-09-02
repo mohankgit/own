@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- Icon Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <!-- Style -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Responsive -->
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <!-- Page Title -->
+  <title>Divya Food Mahal</title>
+
+</head>
+
+<body>
+
+  <!-- Mobile Menu Start -->
+  <section class="mobile-menubar">
+    <div class="products-left-sidebar mb-4" id="mySidenav">
+      <div class="closebtn" onclick="closeNav()">&times;</div>
+        <div class="sidebar-head">
+          <span class="sb-icon">
+            <img src="images/menu.svg" alt="icon">
+          </span>
+          <span> Our menu</span>
+        </div>
+      <ul>
+        <li><a href="">Combo Pack</a></li>
+        <li><a href="">Snacks</a></li> 
+        <li><a href="">Pizza</a></li>
+        <li><a href="">MOMO</a></li>
+        <li><a href="">Roll</a></li>
+        <li><a href="">Burger & Pasta</a></li>
+        <li><a href="">Noodles</a></li>
+        <li><a href="">Chilly</a></li>
+        <li><a href="">Sandwich</a></li>
+        <li><a href="">Samosa & Chat</a></li>
+        <li><a href="">Sweets</a></li>
+        <li><a href="">Ice-Cream</a></li>
+        <li><a href="">Shake</a></li>
+        <li><a href="">Lassi</a></li>
+        <li><a href="">Tea/Coffee</a></li>
+        <li><a href="">Khana/Thali</a></li>
+        <li><a href="">Paratha</a></li>
+        <li><a href="">Biryani</a></li>
+        <li><a href="">Sabji</a></li>
+        <li><a href="">Roti</a></li>
+        <li><a href="">Dal</a></li> 
+      </ul>
+    </div>
+  </section>
+
+  <!-- Header Start -->
+  <header id="myHeader">
+
+    <!-- Topbar -->
+    <div class="topbar">
+      <div class="container-xxl">
+        <div class="row">
+          <div class="col-md-5">
+            <div class="top-left d-flex">
+              <p class="me-4"><i class="fas fa-map-marker-alt"></i> रामग्राम – ५ , परासी , नवलपरासी</p>
+              <p><i class="fas fa-clock"></i> Every Day : 8am - 10pm</p>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="top-right">
+              <ul class="top-rightElement">
+                <li>
+                  <a href="https://www.facebook.com/profile.php?id=100082872355263" target="_blank"><i class="bi bi-facebook"></i> Facebook</a>
+                </li>
+                <li>
+                  <a href="#"><i class="bi bi-instagram"></i> Instagram</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header Middle Row -->
+    <div class="header-middle py-2">
+      <div class="container-xxl">
+        <div class="row align-items-center">
+          <div class="col-md-5">
+            <div class="call-info d-flex align-items-center">
+              <i class="bi bi-telephone"></i>
+              <div class="info-content">
+                <span>Call us for ordering</span>
+                <div class="info-title">9816426859, 9816457374</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-5 search-order">
+            <div class="logo">
+              <a href="index.html">
+                <img src="./images/logo.PNG" alt="" /></a>
+            </div>
+          </div>
+          <div class="col-md-2 menu-icon">
+            <a href="javascript:void(0)" class="sb-btn" onclick="openNav()">
+              <span class="sb-icon">
+                <img src="images/menu.svg" alt="icon">
+              </span>
+              <span> Our menu</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!---------------- Banner Card Section Start --------------->
+  <section class="banner-card-section">
+    <img src="./images/main-hero.PNG" alt="" class="desk-hero img-fluid" />
+    <img src="./images/main-hero-m.PNG" alt="" class="mobile-hero img-fluid" />
+  </section>
+
+  <!---------------- Delivery Message --------------->
+  <div class="delivery-banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="media d-flex align-items-center">
+            <i class="bi bi-truck"></i>
+            <div class="media-body ms-2">
+              <h6 class="mt-0">Free Delivery</h6>
+              <p>Orders above</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="media d-flex align-items-center">
+            <i class="bi bi-pin-map"></i>
+            <div class="media-body ms-2">
+              <h6 class="mt-0">Delivery Area</h6>
+              <p>upto 5 Km.</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="media d-flex align-items-center">
+            <i class="bi bi-alarm"></i>
+            <div class="media-body ms-2">
+              <h6 class="mt-0">Delivery Between</h6>
+              <p>10AM to 8PM</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="media d-flex align-items-center">
+            <i class="bi bi-wallet2"></i>
+            <div class="media-body ms-2">
+              <h6 class="mt-0">Payment Method</h6>
+              <p>Cash . Visa . e sewa</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- offer -->
+  <section class="offer-section pt-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="offer-card offer-pro_1">
+            <div class="offer-bg">
+              <img src="./images/offer-banner_1.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="offer-pro">
+              <img src="./images/offer-pro_1.png" alt="" class="img-fluid">
+            </div>
+            <a href="tel:9816426859" class="main-btn">Order Now</a>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="offer-card offer-pro_2 mb-4">
+            <div class="offer-bg">
+              <img src="./images/offer-banner_2.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="offer-pro">
+              <img src="./images/offer-pro_2.png" alt="" class="img-fluid">
+            </div>
+            <a href="tel:9816426859" class="main-btn">Order Now</a>
+          </div>
+          <div class="offer-card offer-pro_3">
+            <div class="offer-bg">
+              <img src="./images/offer-banner_3.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="offer-pro">
+              <img src="./images/offer-pro_3.png" alt="" class="img-fluid">
+            </div>
+            <a href="tel:9816426859" class="main-btn">Order Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--  -->
+  <section class="menu-section py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 d-flex justify-content-between">
+          <div class="menu-head">
+            <h2>What do you like to eat?</h2>
+            <p>Consectetur numquam poro nemo veniam
+              eligendi rem adipisci quo modi.</p>
+          </div>
+          <div class="call-info d-flex align-items-center">
+            <i class="bi bi-telephone"></i>
+            <div class="info-content">
+              <span>Call us for ordering</span>
+              <div class="info-title">9816426859, 9816457374</div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-50 col-md-3">
+          <a href="pizza.html" class="menu-card">
+            <img src="./images/pizza.jpg" alt="" class="img-fluid" />
+            <p class="menu-title">Pizza</p>
+          </a>
+        </div>
+        <div class="col-50 col-md-3">
+          <a href="pizza.html" class="menu-card">
+            <img src="./images/momo.jpg" alt="" class="img-fluid" />
+            <p class="menu-title">MOMO</p>
+          </a>
+        </div>
+        <div class="col-50 col-md-3">
+          <a href="pizza.html" class="menu-card">
+            <img src="./images/roll.jpg" alt="" class="img-fluid" />
+            <p class="menu-title">Roll</p>
+          </a>
+        </div>
+        <div class="col-50 col-md-3">
+          <a href="pizza.html" class="menu-card">
+            <img src="./images/burger.jpg" alt="" class="img-fluid" />
+            <p class="menu-title">Burger & Pasta</p>
+          </a>
+        </div>
+        <div class="col-50 col-md-3">
+          <a href="pizza.html" class="menu-card">
+            <img src="./images/noodle.jpg" alt="" class="img-fluid" />
+            <p class="menu-title">Noodles</p>
+          </a>
+        </div>
+        <div class="col-50 col-md-3">
+          <a href="pizza.html" class="menu-card">
+            <img src="./images/chilli.JPG" alt="" class="img-fluid" />
+            <p class="menu-title">Chilly</p>
+          </a>
+        </div>
+        <div class="col-50 col-md-3">
+          <a href="pizza.html" class="menu-card">
+            <img src="./images/sandwich.jpg" alt="" class="img-fluid" />
+            <p class="menu-title">Sandwich</p>
+          </a>
+        </div>
+        <div class="col-50 col-md-3">
+          <a href="pizza.html" class="menu-card">
+            <img src="./images/samosa.png" alt="" class="img-fluid" />
+            <p class="menu-title">Samosa & Chat</p>
+          </a>
+        </div>
+        <div class="col-50 col-md-3">
+          <a href="pizza.html" class="menu-card">
+            <img src="./images/sweet.jpg" alt="" class="img-fluid" />
+            <p class="menu-title">Sweets</p>
+          </a>
+        </div>
+        <div class="col-50 col-md-3">
+          <a href="pizza.html" class="menu-card">
+            <img src="./images/icecream.webp" alt="" class="img-fluid" />
+            <p class="menu-title">Ice-Cream</p>
+          </a>
+        </div>
+        <div class="col-50 col-md-3">
+          <a href="pizza.html" class="menu-card">
+            <img src="./images/shake.jpg" alt="" class="img-fluid" />
+            <p class="menu-title">Shake</p>
+          </a>
+        </div>
+        <div class="col-50 col-md-3">
+          <a href="pizza.html" class="menu-card">
+            <img src="./images/tea.jpg" alt="" class="img-fluid" />
+            <p class="menu-title">Tea/Coffee</p>
+          </a>
+        </div>
+        <div class="col-50 col-md-3">
+          <a href="pizza.html" class="menu-card">
+            <img src="./images/thali.jpg" alt="" class="img-fluid" />
+            <p class="menu-title">Khana/Thali</p>
+          </a>
+        </div>
+        <div class="col-50 col-md-3">
+          <a href="pizza.html" class="menu-card">
+            <img src="./images/paratha.jpg" alt="" class="img-fluid" />
+            <p class="menu-title">Paratha</p>
+          </a>
+        </div>
+        <div class="col-50 col-md-3">
+          <a href="pizza.html" class="menu-card">
+            <img src="./images/biryani.jpg" alt="" class="img-fluid" />
+            <p class="menu-title">Biryani</p>
+          </a>
+        </div>
+        <div class="col-50 col-md-3">
+          <a href="pizza.html" class="menu-card">
+            <img src="./images/sabji.webp" alt="" class="img-fluid" />
+            <p class="menu-title">Sabji</p>
+          </a>
+        </div>
+        <div class="col-50 col-md-3">
+          <a href="pizza.html" class="menu-card">
+            <img src="./images/roti.jpg" alt="" class="img-fluid" />
+            <p class="menu-title">Roti</p>
+          </a>
+        </div>
+        <div class="col-50 col-md-3">
+          <a href="pizza.html" class="menu-card">
+            <img src="./images/dal.webp" alt="" class="img-fluid" />
+            <p class="menu-title">Dal</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Delivery -->
+
+  <div class="container">
+    <div class="delivery-section">
+      <div class="row align-items-center">
+        <div class="col-md-5">
+          <div class="call-info d-flex align-items-center">
+            <i class="bi bi-telephone"></i>
+            <div class="info-content">
+              <span>Call us for ordering</span>
+              <div class="info-title">9816426859, 9816457374</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="delivery-content">
+            <h2>Get Free Delivery!</h2>
+            <p>Delivery area upto 5 Km.</p>
+          </div>
+        </div>        
+        <div class="col-md-3">
+          <div class="deliver-img">
+            <img src="./images/delivery.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!---------------- Footer Start --------------->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="copyright">© 2022 DivyaFoodMahal. All Rights Reserved</div>
+        </div>
+        <div class="col-md-6">
+          <ul class="top-rightElement">
+            <li>
+              <a href="#"><i class="bi bi-facebook"></i> Facebook</a>
+            </li>
+            <li>
+              <a href="#"><i class="bi bi-instagram"></i> Instagram</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+
+  <!-- Main Js -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

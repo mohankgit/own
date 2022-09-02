@@ -1,0 +1,26 @@
+
+.positive-gallery-slider{
+    width: 100%;
+    display: flex;
+}
+.positive-gallery-slider .side-img{
+    flex-basis: 12%;
+    display: flex;
+    flex-direction: column;
+}
+.positive-gallery-slider .side-img img.small-preview {
+    margin: 0 5px 10px;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 0.2rem;
+}
+.zoom-image{
+    flex: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 15px;  
+    border: 1px solid rgba(0,0,0,.125);
+    min-height: 450px;
+}

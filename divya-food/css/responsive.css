@@ -1,0 +1,161 @@
+
+@media only screen and (max-width: 991px) {
+	
+
+}
+
+
+
+@media only screen and (max-width: 576px) {
+	.mobile-menubar {
+		display: block;
+	}
+	.sticky {
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+	.sticky .call-info {
+		display: none !important;
+	}
+	.sticky + .banner-card-section {
+		margin-top: 18rem;
+	  }
+	.sticky + .menuBg-section {
+		margin-top: 18rem;
+	  }
+	.sticky .logo {
+		line-height: 50px;
+	}
+	
+	.sticky .header-middle {
+		background: #fff;
+		box-shadow: 0px 1px 5px #ccc;
+	}
+	
+	.sticky .topbar {
+		display: none;
+	}
+	
+	header#myHeader {
+		z-index: 99;
+	}
+	.products-left-sidebar {
+		height: 100%;
+		width: 100%;
+		position: fixed;
+		z-index: 9999;
+		top: 0;
+		left: 0;
+		background-color: #333;
+		overflow-x: hidden;
+		transition: 0.5s;
+		transform: translateX(-100%);
+	}
+	.closebtn {
+		display: block;
+	}
+	.products-left-sidebar ul li a {
+		color: #fff;
+	}
+	.top-left {
+		flex-direction: column;
+	}
+	
+	.top-right {
+		display: none;
+	}
+	.info-content span {
+		color: #000;
+	}
+	.topbar {
+		padding: 0.6rem 0;
+		margin-bottom: 0.5rem;
+	}
+	.top-left p {
+		line-height: 2;
+		text-align: center;
+		margin-right: 0 !important;
+	}	
+	.call-info i {
+		font-size: 2.2rem;
+		color: #333;
+	}
+	.info-title {
+		font-size: 1.2rem;
+		color: #333;
+	}
+	.logo {
+		text-align: center;
+		font-weight: 900;
+	}
+	.menu-icon {
+		text-align: center;
+	}
+	a.sb-btn {
+		background: #f8e91f;
+		padding: 0.7rem 1rem;
+		margin-bottom: 0.5rem;
+		display: block;
+		border-radius: 0.8rem;
+		box-shadow: 1px 1px 3px #999;
+	}
+	.desk-hero {
+		display: none;
+	}
+	.mobile-hero {
+		display: block;
+	}
+
+	
+	.offer-card {
+		margin-bottom: 1.5rem;
+	}
+	
+	.offer-pro {
+		width: 50%;
+	}
+	.col-50.col-md-3 {
+		width: 50%;
+	}
+	.menu-card img {
+		height: 130px;
+	}
+	
+	.menu-card {
+		margin: 0 0 0.5rem;
+	}
+	.menu-section .call-info {
+		display: none !important;
+	}
+	
+	.menu-head {
+		margin-bottom: 1rem;
+	}
+	
+	.menu-head h2 {
+		font-weight: 800;
+		color: #333;
+	}
+	
+	
+	section.menu-section.py-5 {
+		padding-top: 2rem !important;
+		padding-bottom: 1rem !important;
+	}
+	.delivery-content {
+		text-align: center;
+		margin: 1.5rem 0;
+	}
+	.product-card-img img {
+		height: auto;
+		width: 100%;
+	}
+	.deliver-img {
+		text-align: center;
+	}
+	.copyright {
+		text-align: center;
+		margin-bottom: 1rem;
+	}
+}
